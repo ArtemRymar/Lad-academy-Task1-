@@ -51,12 +51,8 @@ def get_quant_of_vacancies(profession, experience_level, region):
 
 if __name__ == '__main__':
 
-    # regions = find_cities_id()
-    regions = {
-        'Нижний Новгород' : '66',
-        'Москва' : '1',
-        'Санкт-Петербург' : '2'
-    }
+    regions = find_cities_id()
+    
 
 
     professions = ['Data Analyst', 'Data Scientist', 'Data Engineer']
