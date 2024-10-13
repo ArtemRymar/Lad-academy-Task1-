@@ -72,9 +72,9 @@ if __name__ == '__main__':
                 vacancies_data.append([profession, level, region_name, count])
 
     df = pd.DataFrame(vacancies_data, columns=['Profession', 'Level', 'Region', 'Vacancies'])
-    # print(df)
+    print(df)
 
-    # plt.figure(figsize=(10, 6))
+    
     
     fig, axs = plt.subplots(3, 1, sharex=True, figsize=(8,8))
     gr = 0
